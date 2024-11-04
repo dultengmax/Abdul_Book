@@ -20,8 +20,7 @@ import {
   DrawerTrigger,
 } from "@/components/ui/drawer";
 import { useMediaQuery } from "usehooks-ts";
-import { Input } from "@/components/ui/input";
-import { FaRegCommentDots, FaSearch } from "react-icons/fa";
+import { FaRegCommentDots } from "react-icons/fa";
 import { AiOutlineLike } from "react-icons/ai";
 import { FiSend } from "react-icons/fi";
 import { Separator } from "@/components/ui/separator";
@@ -115,11 +114,10 @@ function ProfileForm({ className }: React.ComponentProps<"form">) {
           <div className="w-8 rounded-full bg-slate-200 h-8"></div>
           <h1>usename1</h1>
         </div>
-          <p className="whitespace-pre-wrap">
+          <p className="whitespace-pre-wrap w-full text-balance">
             werwerwrweeeeeeeeeee
-
-
-            jkgkjgkjasdsadsadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffffffffffffffffffffffffffffffffffffffdaaaaaaaaa</p>
+            jkgkjgkjasdsadsadsaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaffffffffffffffffffffffffffffffffffffffdaaaaaaaaa
+            </p>
 
             <Separator/>
         </section>
