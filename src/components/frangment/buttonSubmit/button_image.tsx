@@ -1,8 +1,10 @@
 "use client"
 import { UploadButton } from '@/utils/uploadthing';
-import React from 'react'
+import React, { useState } from 'react'
 
 const ButtonImage = () => {
+    const [isUploading, setIsUploading] = useState<string>("");
+
   return (
     <>
          <div className="w-full flex justify-center mb-3">
